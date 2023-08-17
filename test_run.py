@@ -3,9 +3,9 @@ import unittest
 from run import minus
 
 
-class TestAdd(unittest.TestCase):
+class TestMinus(unittest.TestCase):
 
-    def test_add_function(self):
+    def test_minus_function(self):
         self.assertEqual(minus(1, 2), 3)
         self.assertEqual(minus(4, 7), 11)
 
