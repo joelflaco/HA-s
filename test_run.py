@@ -9,7 +9,7 @@ class TestAdd(unittest.TestCase):
         self.assertEqual(minus(1, 2), 3)
         self.assertEqual(minus(4, 7), 11)
 
-    def test_add_function_with_floats(self):
+    def test_minus_function_with_floats(self):
         self.assertAlmostEqual(minus(2.1, 5.2), 7.3)
 
 
